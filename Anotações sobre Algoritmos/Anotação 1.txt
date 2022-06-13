@@ -1,0 +1,190 @@
+# ALGORITMOS
+
+É uma sequência de raciocínios, instruções ou operações para alcançar um objetivo,  sendo necessário que os passos sejam finitos e operados sistematicamente.
+
+## Algoritmos Computacionais 
+
+São passos a serem seguidos por um modulo processador e seus respectivos usuários que, quando executados na ordem correta, conseguem realizar determinadas tarefas.
+
+## Logica de Programação
+
+> - **Fluxograma**
+>
+> - **Diagrama de Chapin**
+>
+> - **Pseudocódigo**  
+>
+> 
+
+## Variáveis
+
+São espaços (tipo armários) cheio de espaços vazios que podem ser preenchidos por valores.
+
+6 regras para identificar uma variável
+
+> 1- Deve começar com uma Letra
+>
+> 2- Os próximos caracteres podem ser Letras ou Números
+>
+> 3- Não pode utilizar nenhum símbolo, exceto _ (underline) ou sublinhado 
+>
+> 4- Não pode conter letras com acentos 
+>
+> 5- Não pode conter espaços em branco
+>
+> 6- Não pode ser uma palavra reservada
+
+## Tipos primitivos de variáveis
+
+> - **Inteiro**:  Vai permitir que suas variáveis guarde apenas números inteiros.
+>
+>   ex: 1,3,-5,198...
+>
+> - **Real**: 
+>
+>   ex: 0.5, 5.0, 9.8, 3.1415 ....
+>
+> - **Caractere**: Tudo aquilo colocado entre aspas
+>
+>   ex: "Rodrigo vai pescar"
+>
+> - **Logico**: 
+>
+>   ex: Verdadeiro ou Falso
+
+## Operadores Aritméticos 
+
+> - Adição ( + )  A+B
+> - Subtração ( - ) A -B
+> - Multiplicação ( * )  A*B
+> - Divisão ( / )  A /B
+> - Divisão Inteira ( \ ) A\B
+> - Exponenciaçao ( ^ ) A^B
+> - Modulo ( % ) A% B
+
+
+
+## Ordem de Procedência
+
+> > - Parênteses(  )
+> > - Exponenciação ^
+> > - Multiplicação e  divisão */
+> > - Adição e subtração + -
+
+## Função Aritméticas
+
+> - Abs- Valor absoluto
+> - Exp: Exponenciação
+> - Int: Valor inteiro
+> - RaizQ: Raiz Quadrada
+> - Pi: Retorna Pi
+> - Sen: Seno(rad)
+> - Cos: Cosseno( rad)
+> - Tan: Tangente (rad)
+> - Grausprad: Graus para radiano
+
+## Operadores Lógicos e Relacionados 
+
+Criam relação entre variáveis ou expressões , comparam e geram resultados lógicos(verdadeiro ou Falso)
+
+###           Relacionados
+
+> - Maior que( > )
+> - Menor que ( < )
+> - Maior ou igual que ( >= )
+> - Menor ou igual que  ( <= )
+> - Igual ( = )
+> - Diferente de ( <> )
+
+        ###          Lógicos
+
+> Retornam um valor final logico porem não servem para comparar resultados de expressões ou números .
+>
+> servem para comparar outros resultados lógicos.
+>
+> > - Operador E: Só serve se for dois ao mesmo tempo
+
+​                    P **e**  Q
+
+> > - Operador Ou: apensa nos casos em que as premissas forem verdadeiras
+> >
+> > aqui pode ser qualquer um dos dois
+> >
+> > ​           P **ou**  Q
+
+> > - Operador Nao:  O operador so retornara Falso no caso que as duas premissas forem Falsas
+> > - P      **Não** P
+
+## 
+
+## Estruturas Condicionais
+
+Permite a escolha do grupo de ações e estruturas que serão executados,
+quando determinadas condições, representadas por expressões lógicas
+(verdadeiro ou falso), forem ou não satisfeitas. 
+
+   ###         Simples
+
+Estrutura com 1 bloco sendo executado caso uma expressão seja verdadeira.
+
+> - A opção condição contém: identificadores lógicos (falso ou verdadeiro);
+> - identificadores e expressões aritméticas combinados com operadores relacionais ou lógicos.
+> - Quando mais de um comando deve ser executado, devemos inserir as palavras **inicio** e **fim** logo após a opção **então**.
+
+  **se**  (expressão) **então**
+
+​         bloco
+
+**FimSe**
+
+
+
+### Composta
+
+> - A estrutura permite que uma ação seja executada, caso a condição lógica que está sendo testada for falsa (opção **senao**). 
+> - Nas duas situações, **apenas uma ação** (ou comando) será executada.
+>
+> **Se** (expressao) **então**
+>
+> ​    BLoco
+>
+> **Senão**
+>
+>    Bloco
+>
+> **FimSe**
+
+###  Aninhada
+
+Estrutura dentro da outra como se fosse formando um ninho.
+
+​     **Se** (situacao 1 ) **então**
+
+​         Bloco A
+
+​    **Senão**
+
+​            **Se** (situacao 2) **então**
+
+​          Bloco B
+
+​     **Senão**
+
+​         Bloco C
+
+​           **FimSe**
+
+   **FimSe**
+
+## Estrutura de Repetição
+
+são úteis, por exemplo, para repetir uma série de operações semelhantes que são executadas para todos os elementos de uma lista ou de uma tabela de dados, ou simplesmente para repetir um mesmo processamento até que uma certa condição seja satisfeita.
+
+
+
+
+
+
+
+
+
